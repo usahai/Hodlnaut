@@ -8,12 +8,13 @@ To give an example, let’s say the user’s balance is 0.5 BTC and 2 ETH. If th
 
 ---
 
-# To build
+## To build
 
 After cloning the repository, run
 
 ```
 npm install
+npm start
 ```
 
 ---
