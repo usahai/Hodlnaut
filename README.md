@@ -26,7 +26,7 @@ To test the API endpoint:
 After running the server, use the following in the shell to test the API endpoint:
 
 ```
-curl https://localhost:3000/user/[user name]
+curl http://localhost:3000/user/[user name]
 ```
 
 To run the test suite:
