@@ -6,5 +6,6 @@ const userRouter = require("./userRouter");
 
 // Hiding this since this route is not supposed to be exposed
 // router.use("/coinRouter", coinRouter);
-router.use("/userRouter", userRouter);
+router.use("/user", userRouter);
+
 module.exports = router;

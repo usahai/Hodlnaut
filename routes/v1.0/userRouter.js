@@ -11,7 +11,6 @@ router.get("/:id", async function (req, res, next) {
 
 		resp = await userServices.fetchUserTotal(userCoinData);
 
-		console.log("Sending the data: ", JSON.stringify(resp));
 		res.status(200).send(JSON.stringify(resp));
 	} catch (error) {
 		res.status(404).send("User not found");
